@@ -1,0 +1,202 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+.calendly-inline-widget iframe,
+.calendly-badge-widget iframe,
+.calendly-overlay iframe {
+    display: inline;
+    width: 1000px !important;
+    height: 680px !important;
+    margin-top: 20px;
+
+}
+
+a {
+  font-weight: 500;
+  color: #d0cece;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #ffffff !important;
+}
+
+body {
+  margin: 0;
+  display: block;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 105%;
+}
+
+h2 {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 105%;
+  color: #1a1a1a;
+}
+
+h3 {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 105%;
+}
+
+h4 {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 105%;
+}
+
+h5 {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24.19px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0px;
+}
+
+h6 {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20.16px;
+  line-height: 26px;
+  /* identical to box height */
+
+  text-align: center;
+}
+
+button {
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border: none;
+}
+
+button:focus,
+button:focus-visible {
+  outline: unset;
+  border: none;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: transparent;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  h1 {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 105%;
+  }
+
+
+
+  h6 {
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  h2 {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 105%;
+  }
+
+
+
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 105%;
+  }
+
+  h4 {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 105%;
+  }
+
+  h5 {
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20.16px;
+    line-height: 26px;
+  }
+
+  h2 {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 105%;
+  }
+
+}
